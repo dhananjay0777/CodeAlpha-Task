@@ -57,7 +57,6 @@ public:
                             if (solveSudoku(board))
                                 return true;
 
-                            // Backtrack
                             board[row][col] = 0;
                         }
                     }
